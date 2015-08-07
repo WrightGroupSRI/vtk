@@ -4,6 +4,10 @@ set(Module_SRCS
   vtkVRMLImporter.cxx
 )
 
+set (${vtk-module}_HDRS
+  vtk3DS.h
+)
+
 set_source_files_properties(
   vtkImporter
   ABSTRACT
